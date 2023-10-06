@@ -1,0 +1,224 @@
+@media (min-width: 768px) { 
+    header  {
+        margin: 0 ;
+        padding: 0 ;
+    }
+
+    nav {
+        width: 100%;
+        content: '';
+        position: relative;
+        top: 0;
+        left: 14%;
+        z-index: 11;
+    }
+    
+
+    
+.mobile {
+    display: none;
+}
+
+.desk {
+    position: absolute;
+    top: 0;
+    display: block;
+    max-width: 100vw ;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.desk-img {
+    display: block;
+}
+
+
+.img-fluid > .mobile-desk {
+    max-width: 100%;
+}
+
+.box-line {
+    padding: 1%  1% 0.5% 1%;
+    width: 40%;
+}
+
+.box-line  h1 {
+    width: 75%;
+}
+
+
+.invisible {
+    padding: 277px;
+    width: 100vw;
+}
+
+
+
+
+
+.move {
+    position: relative;
+    top: 110px;
+    left: -115px;
+    width: 530px !important;
+    height: 380px;
+    padding: 0px;
+}
+
+
+.pp {
+    text-align: left;
+ padding: 10% 8% ;  
+}
+
+.more-space > h2{
+   position: relative;
+   top: -25px;
+   font-size: 2.5em;
+}
+
+.mobile-img, .desk-img {
+   margin: 0 0;
+}
+
+.center {
+    position: relative;
+    left: 0px;
+}
+
+.top-me {
+    position: relative;
+    top: 155px;
+}
+
+
+.d-sm-none {
+    display: block !important;
+}
+
+
+
+
+
+.animated-01 {
+    margin-bottom:0px ;
+  }
+  .animated-space{
+      margin:  -95px 0;
+  } 
+  .animated-hover + .animated-hover {
+      margin: 0;
+  }
+  
+ .line {
+    max-width: 70% !important;
+    position: relative;
+    top: 0px;
+    left: 150px;
+ }
+
+  
+  .line > h3 {
+      position: relative;
+      top: 24px;
+      left: -174px !important;
+  }
+
+  .soccer {
+    position: relative;
+  }
+
+  .top25 {
+    position: relative;
+    top: 50px;
+  }
+  
+  
+  .btn-see {
+      margin: 25px 0;
+      width: 15%;
+  }
+
+
+  .forAllHeaders > .text-center {
+    text-align: left;
+  } 
+  
+  .btn-center:hover {
+      background-color: #000;
+      color: #fff;
+  }
+
+  footer {
+    margin-top: 75px;
+    position: relative;
+    top: 55px !important;
+  }
+
+  footer .nav {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .footer-logo {
+    position: relative;
+    top: 10px;
+  }
+
+
+  .rodepe-1  {
+     position: relative;
+     bottom: 25px !important;
+  }
+
+  .flex-row-reverse {
+    position: relative;
+    bottom: 75px;
+  }
+
+  .copyright {
+    margin-top: 25px;
+    margin-right: 15px;
+  }
+
+  .justify-content-center-0  {
+    justify-content: end !important;
+}
+
+.end {
+    position: relative;
+    top: -70px;
+}
+  
+
+.nav-link {
+    cursor: pointer;
+    color: var(--Dark-Gray) !important;
+    font-weight: bold !important;
+
+}
+
+.nav-link:hover{
+    color: #fff !important;
+    border-bottom: 1px solid whitesmoke;
+}
+ }
+
+
+ @media (min-width: 1440px) {
+    nav {
+        width: 75%;
+        content: '';
+        position: relative;
+        top: 0;
+        left: 14%;
+        z-index: 11;
+    }
+    .center {
+        position: relative;
+        left: 0px;
+    }
+    
+ }

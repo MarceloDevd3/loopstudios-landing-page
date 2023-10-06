@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.9375em;
+    overflow-x: hidden;
+}
+
+:root {
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+--Dark-Gray: hsl(0, 0%, 55%);
+--Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+
+header  {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+
+.nav-link {
+    cursor: pointer;
+    color: var(--Dark-Gray) !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover{
+    color: #fff !important;
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+.nav-link:hover > i {
+    color: var(--Dark-Gray);
+}
+
+
+
+
+@keyframes showtime {
+    0%{
+        -webkit-box-shadow: 4px 2px 46px -6px rgba(248, 241, 248, 0.97);
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #eb75b0 0px 0px 20px, #eb75b0 0px 0px 30px, #eb75b0 0px 0px 40px, #eb75b0 0px 0px 50px, #eb75b0 0px 0px 75px;
+        -moz-box-shadow: 4px 2px 46px -6px rgba(131, 63, 131, 0.97);
+           box-shadow: 4px 2px 46px -6px rgba(131, 39, 131, 0.97);
+    }
+
+
+    100%{
+        -webkit-box-shadow: 4px 2px 46px -6px rgba(204,37,204,0.97);
+         text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+        -moz-box-shadow: 4px 2px 46px -6px rgba(204,37,204,0.97);
+        box-shadow: 4px 2px 46px -6px rgba(204,37,204,0.97);
+    }
+}
+
+
+
+
+
+.box-line {
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    border: 2px solid white;
+    width: 75%;
+    animation: showtime infinite 2.5s !important;
+}
+
+
+
+
+
+p {
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    color: var(--Dark-Gray);
+}
+
+.box-line h1 {
+    font-size: 3rem;
+    color: var(--White);
+   
+    
+    padding: 10px;
+}
+
+
+.forAllHeaders {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+.box-line  h1 {
+    width: 45%;
+}
+
+
+.mobile {
+    display: block;
+    position: absolute;
+    top: -20px;
+    min-width: 100%;
+}
+
+.desk {
+    display: none;
+}
+
+.mobile-img {
+    display: block;
+}
+
+.desk-img {
+    display: none;
+}
+
+
+nav {
+    z-index: 234;
+}
+
+.navbar-transparent {
+    background: transparent !important;
+}
+
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none  !important;
+    border: none  !important;
+    box-shadow: none  !important;
+}
+
+
+.d-sm-none {
+    display: none !important;
+}
+
+
+.invisible {
+    padding: 79%;
+    width: 100vw;
+}
+
+
+main {
+  padding: 10% 0;
+}
+
+
+.pp {
+ padding: 5% 20% ;  
+}
+
+.more-space > h2{
+    font-size: 2em;
+}
+
+.mobile-img, .desk-img {
+    margin: 10px 0;
+}
+
+
+h2 {
+    color: var(--White);
+  
+}
+
+.row > .bg-white {
+    background-color: var(--White) !important;
+}
+
+
+
+.center {
+    position: relative;
+    left: 10px;
+}
+
+
+
+.animated-hover:hover > img{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: .7s ease-in ;
+}
+
+
+h3 {
+    position: relative;
+    top: -75px;
+    left: 25px;
+    width: 25%;
+    opacity: 1;
+    color: #fff !important;
+}
+
+.half {
+    position: relative;
+    top: -75px;
+    width: 75% !important;  
+}
+
+.animated-01 {
+  margin-bottom:-30px ;
+}
+.animated-space{
+    margin: -35px 0;
+} 
+.animated-hover + .animated-hover {
+    margin: -30px 0;
+}
+
+.animated-hover:hover h3 {
+    transition: .7s ease-in ;
+    color: #000 !important;
+}
+
+
+
+.line > h3 {
+    position: relative;
+    top: 20px;
+    left: -10px;
+    width: 100% !important ;
+    font-size: 2.1em;
+}
+
+
+.btn-center {
+    position: relative;
+    top: -10px;
+    left: 27%;
+    width: 45% !important;
+    border-radius: 0px;
+    text-transform: uppercase;
+    border: solid 1px #000 !important;
+}
+
+.btn-center:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+
+.space-grid {
+    margin: 4px 0 0 0 !important;
+}
+
+i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.offcanvas-body > .nav-link {
+    color: #fff !important;
+    font-size: 1.2em  !important;
+}
+
+
+
+.justify-content-center-0  {
+    justify-content: center !important;
+}
+
+
+
